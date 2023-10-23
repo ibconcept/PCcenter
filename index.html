@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PCCenter</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="PCCenter Logo">
+        <h1>PCCenter</h1>
+    </header>
+    <main>
+        <section class="filter">
+            <label for="category">Filter by Category:</label>
+            <select id="category">
+                <option value="all">All</option>
+                <option value="laptop">Laptops</option>
+                <option value="monitor">Monitors</option>
+                <option value="cpu">CPUs</option>
+                <!-- Add more categories as needed -->
+            </select>
+        </section>
+        
+        <section class="filter">
+            <label for="category">Filter by Brand:</label>
+            <select id="category">
+                <option value="all">Dell</option>
+                <option value="laptop">HP</option>
+                <option value="monitor">Lenovo</option>
+                <option value="cpu">Others</option>
+                <!-- Add more categories as needed -->
+            </select>
+        </section>
+
+        <section class="filter">
+            <label for="category">Filter by Specs:</label>
+            <select id="category">
+                <option value="all">RAM</option>
+                <option value="laptop">Storage</option>
+                <option value="monitor">Gen th</option>
+                <option value="cpu">Display</option>
+                <!-- Add more categories as needed -->
+            </select>
+        </section>
+        
+       
+        <section class="cards" id="cards-container">
+            <!-- Cards will be appended here using JavaScript -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
