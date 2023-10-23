@@ -10,8 +10,15 @@ header {
     color: #fff;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
+    align-items: center; 
+    gap: 3%;
+    padding: 30px;
+}
+
+.logo { 
+margin-left: -2%; 
+padding: auto;
+
 }
 
 img {
